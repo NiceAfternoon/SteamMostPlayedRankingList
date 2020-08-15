@@ -10,7 +10,7 @@ $ python3 main.py
 ```
 如果提示缺少库，执行以下命令
 ```bash
-$ pip3 install requests bs4 pyecharts
+$ pip3 install requests bs4 pyecharts lxml
 ```
 
 程序会在data目录下生成包含前100名的列表的json文件，并在charts目录下生成包含前15名的图表的html文件
