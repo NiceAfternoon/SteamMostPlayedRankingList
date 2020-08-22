@@ -1,2 +1,2 @@
-data/
-charts/
+*.html
+*.json
