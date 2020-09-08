@@ -48,7 +48,9 @@ def main():
         Bar()
         .add_xaxis(GameNameList[:15])
         .add_yaxis('峰值人数', GamePlayerList[:15])
-        .set_global_opts(title_opts=opts.TitleOpts(title="Steam游戏峰值玩家人数Top15", subtitle=Today))
+        .set_global_opts(title_opts=opts.TitleOpts(
+			title="Steam游戏峰值玩家人数Top15",
+			subtitle=Today))
     )
 
     bar.render("charts/%s.html" % Today)
